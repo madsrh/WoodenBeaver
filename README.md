@@ -8,8 +8,6 @@ To make the theme feel light and responsive, the sounds are short and there's no
 Enjoy!
 MadsRH
 
-```
+---
 
 This project is licensed under CC-BY-SA.
-
-
