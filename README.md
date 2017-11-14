@@ -1,6 +1,6 @@
 # The WoodenBeaver sound theme
 
-![Wooden](/banner.png)
+![Wooden](/banner.jpg)
 
 The WoodenBeaver sound theme is a proposal for new default system sounds for Ubuntu 18.04. 
 The intention was to create a cohesive set of sounds that will enhance the user experience without getting in the way.
