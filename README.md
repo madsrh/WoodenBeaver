@@ -14,7 +14,18 @@ _MadsRH_
 
 ## How to test it
 
-In order to test this sound theme, click on "clone or download" then "Download Zip". You'll get a zip file with a folder named "WoodenBeaver-master" inside it. Just put this folder inside `.local/share/sounds/` and rename it `WoodenBeaver`. After that, to change your current desktop sound theme, you will need `dconf-editor` to change the setting key `/org/gnome/desktop/sound/theme-name/` to `WoodenBeaver`
+### Installation instruction
+
+You can install WoodenBeaver from source using the Meson build system.
+
+````
+meson builddir --prefix=/usr
+sudo ninja -C builddir install
+````
+
+### How to activate the theme
+
+To change your current desktop sound theme, you can use `dconf-editor` to change the setting key `/org/gnome/desktop/sound/theme-name/` to `WoodenBeaver`
 
 ### Testing input feedback sounds
 
@@ -23,3 +34,5 @@ In `dconf-editor`, change the key `/org/gnome/desktop/sound/input-feedback-sound
 ---
 
 This project is licensed under CC-BY-SA 3.0.
+
+The meson script and the build instruction are taken from the [Suru icon theme](https://github.com/snwh/suru-icon-theme)
