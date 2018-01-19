@@ -1,12 +1,14 @@
+audio-volume-change
 battery-low
 bell
 button-pressed
 complete
+device-added
+device-removed
 dialog-error
 dialog-question
 dialog-warning
 message-new-instant
-service-login
-service-logout
+
         Copyright: Mads Rosendahl
         License: CC-BY-SA
