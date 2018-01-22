@@ -4,9 +4,7 @@ bell
 button-pressed
 complete
 device-added
-device-added-media
 device-removed
-device-removed-media
 dialog-error
 dialog-question
 dialog-warning
