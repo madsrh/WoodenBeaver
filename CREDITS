@@ -8,6 +8,7 @@ device-removed
 dialog-error
 dialog-question
 dialog-warning
+message-new-email
 message-new-instant
 
         Copyright: Mads Rosendahl
